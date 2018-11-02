@@ -55,6 +55,10 @@
   			<input type="checkbox" name="interestParks" value="Parks"> Parks<br>
   			<input type="checkbox" name="interestBeaches" value="Beaches"> Beaches<br><br>
   			
+  			<input type="checkbox" name="interestShopping" value="Shopping"> Shopping<br>
+  			<input type="checkbox" name="interestAffordable" value="Affordable"> Affordable<br>
+  			<input type="checkbox" name="interestSightseeing" value="Sightseeing"> Sightseeing<br><br>  						
+  			
   			<input type="submit" value="Submit">
      	</form>
      </div>
