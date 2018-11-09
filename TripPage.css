@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* nav bar design */
+
+body {
+	background-image: url("background.jpg");
+	color: white;
+}
+
+.header {
+  background-color: rgba(255,255,255,.7);
+  width: 100%%;
+  padding: 35px;
+  margin-top: 20px;
+  
+}
+
+.hme {
+	font-weight: lighter;
+	font-size: 45px;
+	color: #6ab3c8;
+	text-decoration: none;
+   	margin-left: -10px;
+   	margin-top: -35px;
+   	position: absolute;
+}
+
+.cur {
+	font-weight: lighter;
+	font-size: 45px;
+	color: #6ab3c8;
+	text-decoration: none;
+   	margin-left: 150px;
+   	margin-top: -35px;
+   	position: absolute;
+}
+
+.create {
+	font-weight: lighter;
+	font-size: 45px;
+	color: #6ab3c8;
+	text-decoration: none; 
+   	margin-left: 540px;
+   	margin-top: -30px;
+   	position: absolute;
+}
+
+.lo {
+	font-weight: lighter;
+	font-size: 45px;
+	color: ##6ab3c8;
+	text-decoration: none; 
+   	background-color: none;
+   	margin-left: 870px;
+   	margin-top: -30px;
+   	position: absolute;
+}
+/* gets rid of padding */
+.page{
+	margin: 0px;
+}
+
+
+
+
+#profile {
+	position: absolute; 
+	bottom: 310px;
+	right: 460px;
+	text-align: center;
+}
+#profile img {
+	border-radius: 50%;	
+}
+#calender{
+	border-radius: 25px;
+    border: 2px solid white;
+    padding: 10px;
+}
+.MyCalender{
+	padding: 40px;
+	font-size: 25px;
+}
+h1{
+	font-size: 30px;
+}
+.MyMatches {
+	position: absolute; 
+	top: 455px;
+	left: 100px;
+	text-align: center;
+}
+.MyMatches img {
+	border-radius: 50%;	
+}
+.Right{
+	font-size: 15px;
+	position: absolute;
+	right: 200px;
+	bottom: 20px;
+}
+.Right td{
+	border-radius: 25px;
+    border: 2px solid white;
+    padding: 10px;
+}
+caption{
+	font-size: 30px;
+}

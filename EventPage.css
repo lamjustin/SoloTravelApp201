@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* nav bar design */
+
+body {
+	background-image: url("background.jpg");
+	color: white;
+}
+
+.header {
+  background-color: rgba(255,255,255,.7);
+  width: 100%%;
+  padding: 35px;
+  margin-top: 20px;
+  
+}
+
+.hme {
+	font-weight: lighter;
+	font-size: 45px;
+	color: #6ab3c8;
+	text-decoration: none;
+   	margin-left: -10px;
+   	margin-top: -35px;
+   	position: absolute;
+}
+
+.cur {
+	font-weight: lighter;
+	font-size: 45px;
+	color: #6ab3c8;
+	text-decoration: none;
+   	margin-left: 150px;
+   	margin-top: -35px;
+   	position: absolute;
+}
+
+.create {
+	font-weight: lighter;
+	font-size: 45px;
+	color: #6ab3c8;
+	text-decoration: none; 
+   	margin-left: 540px;
+   	margin-top: -30px;
+   	position: absolute;
+}
+
+.lo {
+	font-weight: lighter;
+	font-size: 45px;
+	color: ##6ab3c8;
+	text-decoration: none; 
+   	background-color: none;
+   	margin-left: 870px;
+   	margin-top: -30px;
+   	position: absolute;
+}
+/* gets rid of padding */
+.page{
+	margin: 0px;
+}
+.picture{
+	text-align: center;
+	position: absolute;
+	left: 60px;
+	top: 120px;
+}
+.picture img{
+	border-radius: 20%;
+    padding: 20px;
+}
+.Attendees {
+	position: absolute; 
+	top: 140px;
+	right: 280px;
+	text-align: center;
+}
+.Attendees img {
+	border-radius: 50%;	
+}
+.interests{
+	font-size: 30px;
+	position: absolute;
+	bottom: 50px;
+	left: 100px;
+	
+}
+.interests td{
+	border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+}
+.join{
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+}
+caption{
+	font-size: 40px;
+}
+.join td{
+	font-size: 40px;
+}
+
+
+
+
